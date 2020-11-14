@@ -1,26 +1,4 @@
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width: 575.98px) {
+@media (max-width: 501px) {
   /* Manage Display Headers for Mobile Devices */
   .display-1 {
     font-size: 3rem;
@@ -29,19 +7,19 @@ html {
   }
 
   .display-2 {
-    font-size: 2.75rem;
+    font-size: 1.25rem;
     font-weight: 300;
     line-height: 1;
   }
 
   .display-3 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     font-weight: 300;
     line-height: 1;
   }
 
   .display-4 {
-    font-size: 1.75rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1;
   }
