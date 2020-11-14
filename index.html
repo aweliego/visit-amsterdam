@@ -16,13 +16,16 @@
       crossorigin="anonymous"
     />
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+
     <title>Amsterdam off the beaten track</title>
   </head>
 
   <body>
 
     <!-- Navbar component -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand " href="#"
         ><span class="text-success font-weight-bold">Amsterdam</span>
         <span class="text-primary font-italic">Off the beaten track</spanAmsterdam></a
@@ -78,32 +81,35 @@
       </div>
     </nav>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron" style="background:url(canal-view.jpeg) no-repeat center; background-size:cover;">
-      <div class="text-light text-center">
-        <h1 class="display-1">Discover the hidden gems Amsterdam has to offer</h1>
-        <p class="lead font-weight-bold">Tired of the crowds of tourists? Whether you're a local or just passing by, check out our recommendations and head towards the secret, less frequented places of the city.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Start exploring</a>
-        </p>
-      </div> 
-    </div>
-
-
     <!-- Container -->
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row">
+
+    <!-- Jumbotron -->
+      <div class="jumbotron col-12" style="background:url(canal-view.jpeg) no-repeat center; background-size:cover;">
+        <div class="text-light text-center">
+          <h1 class="display-1">Discover the hidden gems Amsterdam has to offer</h1>
+          <p class="lead font-weight-bold">Tired of the crowds of tourists? Whether you're a local or just passing by, check out our recommendations and head towards the secret, less frequented places of the city.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Start exploring</a>
+          </p>
+        </div> 
+      </div>
+    </div>
 
       <!-- Quote Section -->
-      <div class="row">
-        <div class="col-12">
-          <blockquote class="blockquote text-center display-2 text-secondary">
-            <p class="mb-0 font-italic">"Each location referenced in this website made me fall in love again with my hometown. As a local, it's refreshing to be taken off the beaten path!"</p>
-            <footer class="blockquote-footer">Anonymous</cite></footer>
-          </blockquote>
-        </div>
+    <div class="row">
+      <div class="col-12">
+        <blockquote class="blockquote text-center display-2 text-secondary">
+          <p class="mb-0 font-italic">"Each location referenced in this website made me fall in love again with my hometown. As a local, it's refreshing to be taken off the beaten path!"</p>
+          <footer class="blockquote-footer">Anonymous</cite></footer>
+        </blockquote>
       </div>
-
     </div>
+
+  </div>
+
+
     
 
 
