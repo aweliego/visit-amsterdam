@@ -1,3 +1,12 @@
+.carousel-indicators {
+  bottom: -290px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  bottom: -290px;
+}
+
 @media (max-width: 501px) {
   /* Manage Display Headers for Mobile Devices */
   .display-1 {
