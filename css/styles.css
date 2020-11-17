@@ -1,3 +1,5 @@
+/* index.html Styles */
+
 .blockquote {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -31,6 +33,13 @@ footer {
 /* form {
   margin-left: 500px;
 } */
+
+/* eat.html Styles */
+
+.intro-eat {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 501px) {
   /* Manage Display Headers for Mobile Devices */
