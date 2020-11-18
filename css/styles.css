@@ -37,8 +37,11 @@ footer {
 /* eat.html Styles */
 
 .intro-eat {
-  margin-top: 70px;
-  margin-bottom: 30px;
+  margin-top: 90px;
+}
+
+.row-cards {
+  margin-top: 30px;
 }
 
 @media (max-width: 501px) {
