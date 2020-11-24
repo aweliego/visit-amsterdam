@@ -30,6 +30,11 @@ footer {
   text-align: center;
 }
 
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
 /* form {
   margin-left: 500px;
 } */
