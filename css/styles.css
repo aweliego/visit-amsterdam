@@ -1,0 +1,140 @@
+/* index.html Styles */
+
+.blockquote {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.get-inspired {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  margin-bottom: 40px;
+}
+
+.carousel-indicators {
+  bottom: -290px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  bottom: -290px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* eat.html Styles */
+
+.intro-eat {
+  margin-top: 90px;
+}
+
+.row-cards {
+  margin-top: 30px;
+}
+
+/* Contact.html */
+
+.location {
+  margin-top: 90px;
+}
+
+.contact {
+  margin-top: 40px;
+  padding-left: 50px;
+}
+
+/* Map Widget */
+.iframe-rwd {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+}
+
+@media (max-width: 501px) {
+  /* Manage Display Headers for Mobile Devices */
+  .display-1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .display-2 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .display-3 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .display-4 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  /* Fix space between navbar and jumbotron on mobile */
+  .container-fluid {
+    margin-top: 60px;
+  }
+
+  /* Fix width/sizing of navbrand on mobile */
+  .navbar-brand {
+    width: 25%;
+    font-size: 1rem;
+  }
+
+  /* Not working */
+  .carousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* share-location.html Styles */
+  .alert {
+    margin-top: 20px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  /* share-location.html Styles */
+  .alert {
+    margin-top: 80px;
+  }
+}
+
+/* Desktop Styles */
+
+/* share-location.html Styles */
+@media only screen and (min-width: 961px) {
+  .alert {
+    margin-top: 80px;
+  }
+}
