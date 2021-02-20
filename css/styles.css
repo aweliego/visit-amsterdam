@@ -18,6 +18,12 @@
   bottom: -290px;
 }
 
+@media (max-width: 1400px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   bottom: -290px;
